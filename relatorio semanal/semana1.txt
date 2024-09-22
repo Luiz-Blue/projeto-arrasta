@@ -1,0 +1,54 @@
+SEMANA 1 NO PROJETO ARRASTA
+
+20/09/2024
+
+Tarefa: instalar o ambiente de desenvolvimento até sexta-feira.
+ 
+Tarefa concluída. Já tinha o VS Code, que usava para rodar apps em Java e Flutter, 
+então só restava importar o código do projeto, compilar e executar o programa. 
+Fui verificar o que era necessário para rodar o programa. Foi bem fácil até com o 
+material enviado no grupo. O problema veio quando fui rodar o código-fonte; por 
+algum motivo, mesmo com o material de 
+[https://github.com/cpicanco/stimulus-control-sdl2/tree/main/dependencies](https://github.com/cpicanco/stimulus-control-sdl2/tree/main/dependencies) 
+e 
+[https://github.com/cpicanco/stimulus_control/tree/master](https://github.com/cpicanco/stimulus_control/tree/master), 
+ainda não conseguia compilar, pois faltava o SDL2. 
+Achei uma videoaula no YouTube, baixei a versão 2.30.7 e coloquei o arquivo 
+extraído na mesma pasta do código. Fiz o encaminhamento conforme vi (forma que 
+foi feita na pasta .vscode). 
+Depois de realizar a execução, o terminal apontou que estava tudo certo, 
+porém o botão "Run" nem aparecia. Depois de muitas tentativas de resolver (sem 
+sucesso), decidi deixar isso de lado e me concentrar nas demais partes da tarefa. 
+Então fui olhar os outros diretórios e montei um "esqueleto" de uma estrutura de 
+banco de dados (está na pasta "esqueleto" e está feito em Python, pois ainda não 
+domino Pascal o suficiente para escrever nessa linguagem). 
+Obs.: pode ser que tenham alguns erros, pois não tenho muito conhecimento sobre 
+banco de dados, então fiz uma implementação bem simplória. 
+Sobre o código-base, estou fazendo a transcrição dele para a linguagem Dart em 
+Flutter para uma melhor compreensão do que ele faz; porém, por falta de tempo, 
+ainda estou em uma análise bem inicial, mas consegui iniciar algumas coisas. 
+Mais especificações sobre dúvidas.
+
+Dúvidas
+1. Como faço para que o SDL2 seja instalado corretamente para que eu possa rodar o programa?
+
+2. Como os arquivos estão organizados na pasta `src`? 
+Eu sei que a maior parte do código para rodar o programa está lá, mas por conta de eu não ter conseguido executá-lo, 
+queria saber como os arquivos dela se comportam, tipo qual a ordem de execução deles e o que alguns fazem exatamente, 
+porque vários são bem semelhantes.
+
+3. Não consegui achar um diretório de `assets`. 
+Vi que o programa tem imagens e sons em vários lugares, mas não vi um diretório de `assets` para organizar tudo isso. 
+Se ele não tem, como é feita essa organização?  
+Obs.: Sim, vi a pasta `design`, mas não entendi muito bem ainda se ela faz o papel de quem falei acima.
+
+4. Não entendi muito bem a pasta `tests`.  
+Obs.: Li poucos arquivos dela, mas não ficou claro pra mim ainda.
+
+5. Quais bibliotecas ou plugins posso usar para substituir funcionalidades do SDL2?
+
+6. O Flutter trabalha com widgets. Como pode ser a equivalência do código atual dessa maneira? 
+Tipo, como funcionam os loops de eventos desse código?
+
+obs segunda posto meu repertorio do projeto ARRASTA no github
+obg a paciencia e desculpe a demora
